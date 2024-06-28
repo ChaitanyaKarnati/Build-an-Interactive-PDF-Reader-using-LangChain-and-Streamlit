@@ -117,6 +117,9 @@ Determine the starting and ending page numbers of the PDF to be extracted.
 Initialize a PDF writer object using the PdfWriter() method, and use the PDF.add_page() method to add pages to it.
 Display the resulting file in an iframe component in the second column.
 
+![Screenshot 2024-06-28 at 2 12 42 PM](https://github.com/ChaitanyaKarnati/Build-an-Interactive-PDF-Reader-using-LangChain-and-Streamlit/assets/126136362/c7f49d75-1bad-4ca7-a7c0-e1633aee6890)
+![Screenshot 2024-06-28 at 2 12 42 PM](https://github.com/ChaitanyaKarnati/Build-an-Interactive-PDF-Reader-using-LangChain-and-Streamlit/assets/126136362/c7f49d75-1bad-4ca7-a7c0-e1633aee6890)
+
 
 
 
