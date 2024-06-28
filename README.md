@@ -82,6 +82,14 @@ retriever: This is the vector store retriever that searches the database using a
 return_source_documents: This is a boolean that specifies whether the source document should be returned as well.
 
 
+You can choose any model from the Massive Text Embedding Benchmark (MTEB) for creating the embeddings, or use the thenlper/gte-small model for simplicity. Set this as a value to the model_name parameter.
+Use cpu as the value for the device parameter when creating embeddings. Other values you can choose in other contexts are cuda for Nvidia GPUs and mps for Apple silicon.
+Configure the model to ensure that embeddings are not normalized by setting the encode_kwargs parameter to False.
+Configure the LLM with a temperature of 0.3.
+Use the Chroma.from_documents() method to create a searchable database for the PDF document.
+Configure the vector store to return 2 neighbors.
+
+
 
 # Task 5: Get and Process the File
 In this task, you’ll add the components for uploading the PDF file on the web page and process it using the process_file() method from Task 4. The user will see a spinner while the file is being processed. Once the PDF has been processed, it can then be queried for answers to the user’s questions.
