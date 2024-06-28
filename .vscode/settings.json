@@ -1,0 +1,6 @@
+{
+    "task.allowAutomaticTasks": "on",
+    "workbench.startupEditor": "none",
+    "window.autoDetectColorScheme": true,
+    "terminal.integrated.cwd": ""
+}

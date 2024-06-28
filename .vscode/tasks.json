@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Startup Script",
+            "type": "shell",
+            "command": "clear && mkdir -p /root/.streamlit && echo \"[server]\nenableCORS = false \nenableXsrfProtection = false\" > /root/.streamlit/config.toml && streamlit run app.py",
+            "group": "none",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}
